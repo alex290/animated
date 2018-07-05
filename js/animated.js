@@ -1,9 +1,10 @@
 const OFFSET = 150;
+const CLASS = '.animate-js';
 
 $(window).scroll(function() {
     var topIndex = $(this).scrollTop();
     var heightWin = $(window).outerHeight();
-    $('.animate-js').each(function(index, el) {
+    $(CLASS).each(function(index, el) {
 
         var coordTis = $(this).offset().top - topIndex;
 
