@@ -43,7 +43,10 @@
 | `slideInDown`     | `slideInLeft`      | `slideInRight`      | `slideInUp`          |
 | `slideOutDown`    | `slideOutLeft`     | `slideOutRight`     | `slideOutUp`         |
 
+
+Для задержки анимации используем атрибут data-dalay="" в миллисекундах
+
 пример
 
-    <div class=" animate-js" data-name="fadeInDown">
+    <div class=" animate-js" data-name="fadeInDown" data-dalay="500">
     </div>
